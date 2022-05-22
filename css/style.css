@@ -26,6 +26,11 @@ html{
     color: var(--white);
 }
 
+.secondary{
+    background: var(--blue-gradient);
+    color: var(--white);
+}
+
 .btn__cta{
     width: 140px;
     height: 48px;
@@ -58,7 +63,7 @@ header nav ul li{
     list-style: none;
 }
 
-.header__logo{
+.logo{
     width: 89px;
     height: 24px;
 }
@@ -188,6 +193,15 @@ main{
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.8rem;
-    color: var(--pink);
-    
+    color: var(--pink);   
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    padding: 0 5%;
+    background: var(--darkblue);
 }
