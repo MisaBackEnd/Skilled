@@ -17,8 +17,30 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans';
 }
+
+/* general*/
+.primary{
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.btn__cta{
+    width: 140px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 28px;
+}
+
+
+/*header*/
 
 header{
     position: relative;
@@ -41,20 +63,52 @@ header nav ul li{
     height: 24px;
 }
 
-.primary{
-    background-color: var(--darkblue);
-    color: var(--white);
+/*Main*/
+main{
+    position: relative;
+    max-width: 343px;
+    margin: 3.8rem auto;
+    overflow: hidden;
 }
 
-.btn__cta{
-    width: 140px;
-    height: 48px;
-    text-align: center;
-    text-decoration: none;
+.hero__text{
+    margin-bottom: 46px;
+}
+
+.hero .hero__title{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5rem;
+    color: var(--darkblue);
+    margin-bottom: 26px;
+}
+
+.hero .hero__paragraph{
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: var(--grey);
+    margin-bottom: 24px;
+}
+
+.hero .hero__btn{
+    width: 167px;
+    height: 56px;
     font-size: 1.6rem;
     font-weight: 700;
-    line-height: 2.8rem;
-    padding: 12px 24px;
+    line-height: 2.6rem;
     border: none;
-    border-radius: 28px;
+    border-radius: 3.1rem;
+    background: var(--orange-gradient);
+    color: var(--white); 
+}
+
+
+.hero picture{
+    display: inline-block;
+    width: 343px;
+    height: 350px;
+    background-image: url('/assets/image-hero-mobile.png');
+    background-position: center;
 }
