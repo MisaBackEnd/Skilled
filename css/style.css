@@ -104,11 +104,90 @@ main{
     color: var(--white); 
 }
 
-
 .hero picture{
     display: inline-block;
     width: 343px;
     height: 350px;
     background-image: url('/assets/image-hero-mobile.png');
     background-position: center;
+}
+
+/* courses*/
+.courses{
+    display: grid;
+}
+.courses__title-container{
+    width: 343px;
+    height: 120px;
+    padding: 25px 28px;
+    background: var(--orange-gradient);
+    border-radius: 1rem;
+    margin-bottom: 40px;
+}
+
+.courses__title-text{
+    font-size: 2.4rem;
+    color: var(--white);
+}
+
+.card{
+    position: relative;
+    width: 343px;
+    max-width: 343px;
+    height: 259px;
+    padding: 56px 28px 32px;
+    background: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    margin-bottom: 40px;
+}
+
+.card__icon{
+    position: absolute;
+    top: -25px;
+    width: 56px;
+    height: 56px;
+    background: var(--orange-gradient);
+    border-radius: 50%;
+}
+
+.animation{
+    background-image: url('../assets/icon-animation.svg');
+}
+.design{
+    background-image: url('../assets/icon-design.svg');
+}
+.photography{
+    background-image: url('../assets/icon-photography.svg');
+}
+.crypto{
+    background-image: url('../assets/icon-crypto.svg');
+}
+.business{
+    background-image: url('../assets/icon-business.svg');
+}
+
+.card__title{
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+    color: var(--darkblue);
+    margin-bottom: 1.6rem;
+}
+
+.card__paragraph{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: var(--grey);
+    margin-bottom: 2.4rem;
+}
+
+.card__cta{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    color: var(--pink);
+    
 }
