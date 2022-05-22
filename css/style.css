@@ -5,8 +5,8 @@
     --pink: #f74780;
     --light-pink: #ffa7c3;
     --white: #FFFFFF;
-    --orange-pink-gradient: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
-    --blue-pink-gradient: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+    --orange-gradient: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+    --blue-gradient: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
 }
 
 *{
