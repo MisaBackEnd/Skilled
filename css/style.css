@@ -125,7 +125,8 @@ main{
 /* courses*/
 .courses{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 343px);
+    grid-template-columns: repeat(auto-fill, minmax(339px, 1fr));
+    column-gap: 11px;
     width: 100%;
     grid-auto-flow: row;
 }
@@ -147,7 +148,6 @@ main{
 .card{
     position: relative;
     width: 343px;
-    min-width: 343px;
     height: 259px;
     padding: 56px 28px 32px;
     background: var(--white);

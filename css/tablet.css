@@ -31,3 +31,7 @@ main{
 .courses__title-container{
     height: auto;
 }
+
+.courses__title-container, .card{
+    width: 339px;
+}
