@@ -1,0 +1,33 @@
+main{
+    overflow: hidden;
+    padding: 16% 5%;
+    margin: -6.2rem auto;
+}
+
+.hero{
+    display: flex;
+    margin-bottom: 76px;
+}
+
+.hero__text{
+    flex: 2;
+}
+
+.hero picture{
+    flex: 1;
+    width: 0;
+    height: 0;
+    background-image: none;
+}
+
+.hero picture img{
+    display: inline-block;
+    margin-top: -170px;
+    margin-left: -60px;
+    height: 569px;
+    /* background-position: top; */
+    /* background-size: cover; */
+}
+.courses__title-container{
+    height: auto;
+}

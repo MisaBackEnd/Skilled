@@ -71,10 +71,10 @@ header nav ul li{
 /*Main*/
 main{
     position: relative;
-    width: 100%;
+    width: 100vw;
+    overflow-y: hidden;
     padding: 0 5%;
     margin: 3.8rem auto;
-    overflow: hidden;
 }
 
 .hero__text{
@@ -118,10 +118,18 @@ main{
     background-position: center;
 }
 
+.hero picture img{
+    display: none;
+}
+
 /* courses*/
 .courses{
     display: grid;
+    grid-template-columns: repeat(auto-fill, 343px);
+    width: 100%;
+    grid-auto-flow: row;
 }
+
 .courses__title-container{
     width: 343px;
     height: 120px;
@@ -139,7 +147,7 @@ main{
 .card{
     position: relative;
     width: 343px;
-    max-width: 343px;
+    min-width: 343px;
     height: 259px;
     padding: 56px 28px 32px;
     background: var(--white);
