@@ -13,6 +13,10 @@ main{
     flex: 2;
 }
 
+.hero .hero__paragraph br{
+    display: none;
+}
+
 .hero picture{
     flex: 1;
     width: 0;
@@ -32,4 +36,8 @@ main{
 
 .courses__title-container, .card{
     width: 339px;
+}
+
+.card{
+    height: 283px;
 }

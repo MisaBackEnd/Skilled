@@ -71,8 +71,8 @@ header nav ul li{
 /*Main*/
 main{
     position: relative;
-    width: 100vw;
-    overflow-y: hidden;
+    max-width: 100vw;
+    /* overflow-y: hidden; */
     padding: 0 5%;
     margin: 3.8rem auto;
 }
@@ -91,6 +91,7 @@ main{
 
 .hero .hero__paragraph{
     font-size: 1.6rem;
+    max-width: 397px;
     font-style: normal;
     font-weight: 500;
     line-height: 2.6rem;
