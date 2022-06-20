@@ -1,1 +1,56 @@
+header{
+    padding: 0 11.5%;
+    margin: 4rem 0;
+}
 
+main{
+    padding: 16% 11.5% 0;
+    margin: -14.8rem auto 0;
+}
+
+.logo{
+    width: 112px;
+    height: 28px;
+}
+
+.btn__cta{
+    width: 167px;
+    height: 58px;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding: 14px 32px;
+}
+.hero{
+    margin-bottom: 140px;
+}
+
+.hero__text{
+    flex: 1;
+}
+
+.hero .hero__title{
+    font-size: 5.6rem;
+    line-height: 7.1rem;
+    
+}
+
+.hero .hero__paragraph{
+    font-size: 1.8rem;
+    max-width: 445px;
+    line-height: 2.8rem;
+}
+
+.hero .hero__btn{
+    width: 167px;
+    height: 63px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+}
+
+.hero picture img{
+    display: inline-block;
+    margin-top: -300px;
+    margin-left: 75px;
+    height: 800px;
+}
