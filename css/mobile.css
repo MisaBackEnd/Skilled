@@ -65,9 +65,17 @@ header{
     background-color: var(--darkblue);
     color: var(--white);
 }
+.primary:hover{
+    background-color: var(--violet);
+    color: var(--white);
+}
 
 .secondary{
     background: var(--blue-gradient);
+    color: var(--white);
+}
+.secondary:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--blue-gradient);
     color: var(--white);
 }
 
@@ -107,6 +115,11 @@ main section .hero__text-container{
     border-radius: 3.1rem;
     background: var(--orange-gradient);
     color: var(--white); 
+}
+.hero .hero__text-container .hero__btn:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),var(--orange-gradient);
+    color: var(--white);
+    cursor: pointer; 
 }
 
 .hero .hero__img-container{
@@ -201,6 +214,10 @@ main section .hero__text-container{
     font-weight: 700;
     line-height: 2.8rem;
     color: var(--pink);   
+}
+
+.card__cta:hover{
+    color: var(--light-pink);   
 }
 
 footer{
