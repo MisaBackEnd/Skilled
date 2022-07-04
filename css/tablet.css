@@ -1,43 +1,18 @@
-main{
-    overflow: hidden;
-    padding: 16% 5%;
-    margin: -6.2rem auto;
-}
-
-.hero{
+main .hero{
     display: flex;
     margin-bottom: 76px;
+    padding: 0 0 0 5%;
+}
+main section .hero__text-container{
+    margin-top: 150px;
+    flex: 1.5;
 }
 
-.hero__text{
-    flex: 2;
-}
-
-.hero .hero__paragraph br{
-    display: none;
-}
-
-.hero picture{
+.hero .hero__img-container{
+    margin-top: 0%;
     flex: 1;
-    width: 0;
-    height: 0;
-    background-image: none;
-}
-
-.hero picture img{
-    display: inline-block;
-    margin-top: -200px;
-    margin-left: -60px;
-    height: 569px;
-}
-.courses__title-container{
-    height: auto;
-}
-
-.courses__title-container, .card{
-    width: 339px;
-}
-
-.card{
-    height: 283px;
+    height: 75vw;
+    background-image: url(../assets/image-hero-tablet@2x.webp);
+    background-size: 80vw;
+    background-position: right calc(-40vw - 10%) bottom calc(5vw - -30%);
 }

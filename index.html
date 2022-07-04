@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skilled</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/mobileM.css" media="screen and (min-width: 374px)">
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1440px)">
 </head>
-
 <body>
     <header>
-        <img src="./assets/logo-dark.svg" alt="Skillet logo" class="logo">
-        <nav>
+        <nav class="navbar">
+            <img src="./assets/logo-dark.svg" alt="Skilled" class="logo">
             <ul>
                 <li><a class="btn__cta primary" href="#">Get Started</a></li>
             </ul>
@@ -23,17 +22,13 @@
     </header>
     <main>
         <section class="hero">
-            <div class="hero__text">
+            <div class="hero__text-container">
                 <h1 class="hero__title">Maximize skill,<br>
                     minimize budget</h1>
-                <p class="hero__paragraph">Our modern courses across a range of <br> in-demand skills will give you the knowledge you need to live the life you want.</p>
+                <p class="hero__paragraph">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
                 <button class="hero__btn">Get Started</button>
             </div>
-            <picture>
-                <source srcset="./assets/image-hero-desktop@2x.png" media="(min-width: 1024px)">
-                <source srcset="./assets/image-hero-tablet@2x.png" media="(min-width: 768px)">
-                <img src="./assets/image-hero-tablet.png" alt="">
-            </picture>
+            <div class="hero__img-container"></div>
         </section>
         <section class="courses">
             <div class="courses__title-container orange-gr-bg">
@@ -87,9 +82,12 @@
         </section>
     </main>
     <footer>
-        <img src="./assets/logo-light.svg" alt="skillet light logo" class="logo">
-        <button class="btn__cta secondary">Get Started</button>
+        <nav class="navbar">
+            <img src="./assets/logo-light.svg" alt="Skillet" class="logo">
+            <ul>
+                <li><a class="btn__cta secondary" href="#">Get Started</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
-
 </html>
