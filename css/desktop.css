@@ -1,11 +1,13 @@
 header{
-    padding: 0 11.5%;
-    margin: 4rem 0;
+    margin-top: 4rem;
 }
 
-main{
-    padding: 16% 11.5% 0;
-    margin: -14.8rem auto 0;
+main .hero{
+    padding: 0 0 0 11.5%;
+}
+
+main .courses{
+    padding: 0 11.5%;
 }
 
 .logo{
@@ -20,27 +22,33 @@ main{
     line-height: 2.8rem;
     padding: 14px 32px;
 }
-.hero{
-    margin-bottom: 140px;
+
+.navbar{
+    padding: 0 11.5%;
 }
 
-.hero__text{
+main .hero{
+    margin-bottom: 20px;
+}
+
+main section .hero__text-container{
+    margin-top: 250px;
     flex: 1;
 }
 
-.hero .hero__title{
+.hero .hero__text-container .hero__title{
     font-size: 5.6rem;
     line-height: 7.1rem;
     
 }
 
-.hero .hero__paragraph{
+.hero .hero__text-container .hero__paragraph{
     font-size: 1.8rem;
     max-width: 445px;
     line-height: 2.8rem;
 }
 
-.hero .hero__btn{
+.hero .hero__text-container .hero__btn{
     width: 167px;
     height: 63px;
     font-size: 1.8rem;
@@ -48,9 +56,11 @@ main{
     line-height: 2.8rem;
 }
 
-.hero picture img{
-    display: inline-block;
-    margin-top: -300px;
-    margin-left: 75px;
-    height: 800px;
+.hero .hero__img-container{
+    margin-top: 0%;
+    flex: 1.5;
+    height: 55vw;
+    background-image: url(../assets/image-hero-desktop.webp);
+    background-size: 70vw;
+    background-position: right calc(-24vw - 10%) bottom calc(4vw - -30%);
 }
