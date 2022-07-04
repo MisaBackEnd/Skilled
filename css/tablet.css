@@ -16,3 +16,7 @@ main section .hero__text-container{
     background-size: 80vw;
     background-position: right calc(-40vw - 10%) bottom calc(5vw - -30%);
 }
+
+.courses__title-container{
+    height: 259px;
+}
